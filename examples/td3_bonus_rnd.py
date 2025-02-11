@@ -10,8 +10,9 @@ from rlkit.samplers.data_collector import MdpPathCollector, CustomMDPPathCollect
 from rlkit.torch.networks import FlattenMlp, TanhMlpPolicy
 
 # from rlkit.torch.sac.sac_cls import SAC_BonusTrainer
-
+##########
 from rlkit.torch.td3.td3_bonus_rnd_add import TD3_RND_ADD_Trainer
+##########
 from rlkit.torch.td3.td3 import TD3Trainer
 
 from rlkit.torch.networks import Mlp
